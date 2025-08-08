@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/src/assets/images/PlaygroundImage1.jpg"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ansh Singh's Portfolio</title>
+    <script>
+      const originalMessages = [
+        " Ansh Singh 👨‍💻",
+        " Full Stack Developer 🔥",
+        " Check Out Projects 🚀",
+      ];
+      let activeInterval,
+        index = 0;
+
+      function startTitleRotation() {
+        activeInterval = setInterval(() => {
+          document.title = originalMessages[index % originalMessages.length];
+          index++;
+        }, 1500);
+      }
+
+      function stopTitleRotation() {
+        clearInterval(activeInterval);
+      }
+
+      document.addEventListener("visibilitychange", () => {
+        if (document.hidden) {
+          stopTitleRotation();
+          document.title = "Come Back 👋";
+        } else {
+          startTitleRotation();
+        }
+      });
+
+      // Start title rotation on initial load
+      startTitleRotation();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
