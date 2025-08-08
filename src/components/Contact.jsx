@@ -102,21 +102,21 @@ export default function Contact() {
                     name="message"
                     onChange={(e) => onFormUpdate("message", e.target.value)}
                   />
+                  {status.message && (
+                    <Col>
+                      <p
+                        className={
+                          status.success === false ? "danger" : "success"
+                        }
+                      >
+                        {status.message}
+                      </p>
+                    </Col>
+                  )}
                   <button type="submit">
                     <span>{buttontext}</span>
                   </button>
                 </Col>
-                {status.message && (
-                  <Col>
-                    <p
-                      className={
-                        status.success === false ? "danger" : "success"
-                      }
-                    >
-                      {status.message}
-                    </p>
-                  </Col>
-                )}
               </Row>
             </form>
           </Col>
