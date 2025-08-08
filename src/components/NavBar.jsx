@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import logo from "../assets/images/Ansh logo.png";
+import logo from "../assets/images/AnshLogo.png";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 import navIcon1 from "../assets/images/nav-icon1.svg";
