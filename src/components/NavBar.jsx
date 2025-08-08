@@ -70,7 +70,7 @@ export const NavBar = () => {
                 <img src={navIcon2} alt="" />
               </a>
             </div>
-            <a href="/public/Ansh Resume.pdf">
+            <a href="https://drive.google.com/file/d/1rdvsOgiXh5qgGweeWGdPTJmHhzI5p3E9/view?usp=sharing">
               <button className="vvd">
                 <span>
                   <i class="bi bi-download"></i> &nbsp; Resume
