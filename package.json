@@ -36,5 +36,13 @@
   "main": "eslint.config.js",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psrclown/My-Portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/psrclown/My-Portfolio/issues"
+  },
+  "homepage": "https://github.com/psrclown/My-Portfolio#readme"
 }
