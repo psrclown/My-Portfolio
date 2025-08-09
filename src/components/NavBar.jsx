@@ -70,7 +70,7 @@ export const NavBar = () => {
                 <img src={navIcon2} alt="" />
               </a>
             </div>
-            <a href="https://drive.google.com/file/d/1rdvsOgiXh5qgGweeWGdPTJmHhzI5p3E9/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1UeXrovCBNeEeQmXU4Hx6kYu42lIbJvQt/view?usp=sharing">
               <button className="vvd">
                 <span>
                   <i class="bi bi-download"></i> &nbsp; Resume
